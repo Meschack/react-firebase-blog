@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem 0;
+
+  .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    form {
+      display: flex;
+      align-items: center;
+      gap: 0;
+
+      input {
+        background-color: $secondary-100;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        border: none;
+        font-family: $base-font-family;
+      }
+    }
+
+    .theme-toggler {
+      width: 2.5rem;
+      height: 1.2rem;
+      border-radius: 15px;
+      background-color: $secondary-100;
+    }
+  }
+}

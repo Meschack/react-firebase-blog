@@ -1,0 +1,44 @@
+$variants: (
+  t: top,
+  r: right,
+  b: bottom,
+  s: left,
+);
+
+$geometries: (
+  y: (
+    top,
+    bottom,
+  ),
+  x: (
+    left,
+    right,
+  ),
+);
+
+$spacers: (
+  margin: m,
+  padding: p,
+);
+
+@each $spacer, $selector in $spacers {
+  @for $i from 1 to 6 {
+    .#{$selector}-#{$i} {
+      #{$spacer}: #{$i}rem !important;
+    }
+
+    @each $geometry, $axises in $geometries {
+      .#{$selector}#{$geometry}-#{$i} {
+        @each $axis in $axises {
+          #{$spacer}-#{$axis}: #{$i}rem !important;
+        }
+      }
+    }
+
+    @each $variantSelector, $variant in $variants {
+      .#{$selector}#{$variantSelector}-#{$i} {
+        #{$spacer}-#{$variant}: #{$i}rem !important;
+      }
+    }
+  }
+}

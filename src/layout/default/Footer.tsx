@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 
 import { NewsletterForm } from '../../components/NewsletterForm.tsx'
+import { Logo } from '../../components/Logo.tsx'
 
 export const Footer = () => {
   return (
-    <footer>
-      <div className='content'>
-        <div className='row'>
-          <div className='col-'>
+    <footer className='bg-secondary-100 pt-5'>
+      <div className='content d-flex align-items-center flex-direction-column gap-5'>
+        <div className='d-grid informations gap-4'>
+          <div className='d-grid gap-2'>
             <div className='about'>
               <h3>About</h3>
               <p>
@@ -28,7 +29,7 @@ export const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className='col-'>
+          <div className='quick-links'>
             <h3>Quick Links</h3>
             <ul>
               <li>
@@ -45,7 +46,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-'>
+          <div className='categories'>
             <h3>Categories</h3>
             <ul>
               <li>
@@ -65,12 +66,30 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-'>
+          <div className='newsletter'>
             <NewsletterForm />
           </div>
         </div>
 
-        <div className='row'></div>
+        <div className='d-flex align-items-center'>
+          <div className='copywright'>
+            <Logo />
+          </div>
+
+          <div className='terms'>
+            <ul className='d-flex align-items-center justify-content-space-between gap-1'>
+              <li>
+                <Link to={'/'}>Terms of Use</Link>
+              </li>
+              <li>
+                <Link to={'/'}>Privacy Policy</Link>
+              </li>
+              <li>
+                <Link to={'/'}>Cookie Policy</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   )

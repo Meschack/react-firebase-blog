@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Title } from './Title'
+import { Title } from './Title.tsx'
 
 export function Logo(): React.JSX.Element {
   return (

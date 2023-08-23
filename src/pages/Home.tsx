@@ -1,9 +1,15 @@
-import { AppWrapper } from '../layout/global/AppWrapper'
+import { Advertisement } from '../components/Advertisement.tsx'
+import { FeaturedPost } from '../components/FeaturedPost.tsx'
+import { AppWrapper } from '../layout/global/AppWrapper.tsx'
 
 export const Home = () => {
   return (
     <AppWrapper>
-      <h1>Home</h1>
+      <div className='banner'>
+        <FeaturedPost />
+      </div>
+
+      <Advertisement />
     </AppWrapper>
   )
 }

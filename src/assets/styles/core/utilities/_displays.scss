@@ -1,0 +1,15 @@
+// Display
+@each $display in $display-values {
+  .d-#{$display} {
+    display: $display !important;
+  }
+}
+
+// Flex
+@each $property, $values in $flex-properties {
+  @each $value in $values {
+    .#{$property}-#{$value} {
+      #{$property}: $value !important;
+    }
+  }
+}

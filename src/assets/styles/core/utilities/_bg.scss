@@ -1,0 +1,5 @@
+@each $selector, $color in $colors-selectors {
+  .bg-#{$selector} {
+    background-color: $color;
+  }
+}

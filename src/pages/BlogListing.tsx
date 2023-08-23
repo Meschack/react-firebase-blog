@@ -1,4 +1,4 @@
-import { AppWrapper } from '../layout/global/AppWrapper'
+import { AppWrapper } from '../layout/global/AppWrapper.tsx'
 
 export const BlogListing = () => {
   return (

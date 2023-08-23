@@ -1,8 +1,10 @@
-import { PropsWithChildren } from 'react'
+import { ComponentPropsWithoutRef, PropsWithChildren } from 'react'
 import { NavBar } from '../default/NavBar'
 import { Footer } from '../default/Footer'
 
-export const AppWrapper = ({ children }: PropsWithChildren) => {
+type Props = PropsWithChildren<ComponentPropsWithoutRef<'div'>>
+
+export const AppWrapper = ({ children }: Props) => {
   return (
     <>
       <NavBar />

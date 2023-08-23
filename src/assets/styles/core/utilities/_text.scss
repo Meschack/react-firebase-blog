@@ -1,0 +1,12 @@
+// Text
+@each $text-align in $text-aligns {
+  .text-#{$text-align} {
+    text-align: $text-align !important;
+  }
+}
+
+@each $selector, $color in $colors-selectors {
+  .text-#{$selector} {
+    color: $color !important;
+  }
+}

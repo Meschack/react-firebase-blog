@@ -1,0 +1,5 @@
+@for $i from 0 to 13 {
+  .gap-#{$i} {
+    gap: #{$i * 0.5}rem !important;
+  }
+}

@@ -1,12 +1,59 @@
-/***** Typrography *****/
+// Typography
 $base-font-family: 'WorkSans', sans-serif;
 $base-font-family-2: 'PlusJakartaSans', sans-serif;
 
 $base-font-size: 1.5rem;
-/***** End Typrography *****/
 
-/***** Colors *****/
+// Colors
+$white: #fff;
+$black: #000;
+
 $secondary-100: #f4f4f5;
 $secondary-400: #a1a1aa;
 $secondary-600: #3b3c4a;
-/***** End Colors *****/
+$secondary-800: #181a2a;
+
+$theme-1-primary: #4b6bfb;
+
+// Selectors
+
+$colors-selectors: (
+  'white': $white,
+  'black': $black,
+  'primary': $theme-1-primary,
+  'secondary-100': $secondary-100,
+  'secondary-400': $secondary-400,
+  'secondary-600': $secondary-600,
+  'secondary-800': $secondary-800,
+);
+
+// Shadow
+$shadow-md: 0px 12px 24px -6px rgba(24, 26, 42, 0.12);
+
+// Text
+$text-aligns: (left, start, center, right, end, justify);
+
+// Display
+$display-values: (flex, block, grid, none);
+
+// Flex properties
+$flex-properties: (
+  'flex-direction': (
+    row,
+    column,
+  ),
+  'align-items': (
+    start,
+    center,
+    end,
+    stretch,
+  ),
+  'justify-content': (
+    start,
+    center,
+    end,
+    space-between,
+    space-around,
+    stretch,
+  ),
+);

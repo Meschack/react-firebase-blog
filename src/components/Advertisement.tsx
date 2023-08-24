@@ -4,7 +4,6 @@ export const Advertisement = () => {
       <div className='content d-flex flex-direction-column p-1 gap-1'>
         <h6>Advertisement</h6>
         <strong>You can place ads</strong>
-        <span>750 * 100</span>
       </div>
     </div>
   )

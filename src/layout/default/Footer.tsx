@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom'
-
-import { NewsletterForm } from '../../components/NewsletterForm.tsx'
-import { Logo } from '../../components/Logo.tsx'
+import { NewsletterForm } from '../../components/NewsletterForm'
+import { Logo } from '../../components/Logo'
 
 export const Footer = () => {
   return (
-    <footer className='bg-secondary-100 pt-5'>
+    <footer className='bg-secondary-100 pt-5 pb-1'>
       <div className='content d-flex align-items-center flex-direction-column gap-5'>
         <div className='d-grid informations gap-4'>
           <div className='d-grid gap-2'>
             <div className='about'>
               <h3>About</h3>
-              <p>
+              <p className='fs-2'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
                 voluptatem eaque alias ducimus reiciendis cumque magnam numquam
                 labore iusto. Dolores placeat est omnis, quia ab officia
@@ -35,12 +34,15 @@ export const Footer = () => {
               <li>
                 <Link to='/'>Home</Link>
               </li>
+
               <li>
                 <Link to='/about'>About</Link>
               </li>
+
               <li>
                 <Link to='/blog'>Blog</Link>
               </li>
+
               <li>
                 <Link to='/contact'>Home</Link>
               </li>
@@ -71,7 +73,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className='d-flex align-items-center'>
+        <div className='w-full d-flex justify-content-space-between'>
           <div className='copywright'>
             <Logo />
           </div>

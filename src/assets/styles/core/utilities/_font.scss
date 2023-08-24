@@ -1,0 +1,13 @@
+// Weight
+@for $i from 1 to 10 {
+  .fw-#{$i} {
+    font-weight: #{$i * 100} !important;
+  }
+}
+
+//   Size
+@for $i from 1 to 5 {
+  .fs-#{$i} {
+    font-size: #{$i * 0.5}rem !important;
+  }
+}

@@ -1,9 +1,10 @@
+import { ArticleContent } from '../components/ArticleContent.tsx'
 import { AppWrapper } from '../layout/global/AppWrapper.tsx'
 
 export const SinglePost = () => {
   return (
-    <AppWrapper>
-      <h1 className='single-post'>Single post</h1>
+    <AppWrapper title='Single Post Page'>
+      <ArticleContent />
     </AppWrapper>
   )
 }

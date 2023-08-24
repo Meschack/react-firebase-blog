@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef } from 'react'
 
-type ButtonProps = ComponentPropsWithoutRef<'img'>
+type ImageProps = ComponentPropsWithoutRef<'img'>
 
-export const Image = (props: ButtonProps) => {
-  return <img {...props} />
+export const Image = (props: ImageProps) => {
+  return <img {...props} alt={props.alt ?? 'Une image'} />
 }

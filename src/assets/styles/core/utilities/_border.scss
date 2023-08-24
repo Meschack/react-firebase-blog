@@ -1,0 +1,19 @@
+$variants: (top, right, bottom, left);
+
+@for $i from 1 to 6 {
+  .border-#{$i} {
+    border: #{$i}px solid !important;
+  }
+
+  @each $variant in $variants {
+    .border-#{$variant}-#{$i} {
+      border-#{$variant}: #{$i}px solid !important;
+    }
+  }
+}
+
+@each $selector, $color in $colors-selectors {
+  .border-#{$selector} {
+    border-color: $color !important;
+  }
+}

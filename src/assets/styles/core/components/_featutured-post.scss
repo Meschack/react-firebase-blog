@@ -1,40 +1,8 @@
 .featured-post {
-  background: $white;
-  border-radius: 5px;
-  //   display: flex;
-  flex-direction: column;
-  gap: 1rem;
   width: 598px;
   padding: 40px;
   position: absolute;
   left: 64px;
   bottom: -64px;
   box-shadow: $shadow-md;
-
-  .badge {
-    background: $theme-1-primary;
-    color: $white;
-    border-radius: 6px;
-    padding: 4px 10px;
-    width: max-content;
-  }
-
-  .title {
-    align-self: stretch;
-    color: $secondary-800;
-    line-height: 40px;
-  }
-
-  .infos {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    color: $secondary-400;
-
-    .author {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-  }
 }

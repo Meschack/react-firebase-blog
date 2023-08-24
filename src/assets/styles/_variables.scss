@@ -2,12 +2,15 @@
 $base-font-family: 'WorkSans', sans-serif;
 $base-font-family-2: 'PlusJakartaSans', sans-serif;
 
+$code-preview-font: 'SourceCodePro', sans-serif;
+
 $base-font-size: 1.5rem;
 
 // Colors
 $white: #fff;
 $black: #000;
 
+$secondary-50: #f6f6f7;
 $secondary-100: #f4f4f5;
 $secondary-400: #a1a1aa;
 $secondary-600: #3b3c4a;
@@ -21,6 +24,7 @@ $colors-selectors: (
   'white': $white,
   'black': $black,
   'primary': $theme-1-primary,
+  'secondary-50': $secondary-50,
   'secondary-100': $secondary-100,
   'secondary-400': $secondary-400,
   'secondary-600': $secondary-600,

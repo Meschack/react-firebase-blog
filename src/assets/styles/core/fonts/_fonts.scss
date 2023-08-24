@@ -1,75 +1,119 @@
 $font_url: '/src/assets/fonts/';
 
 @font-face {
-    font-family: 'WorkSans';
-    src: local('WorkSans Bold'), local('WorkSans-Bold'),
-      url('#{$font_url}WorkSans/WorkSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'WorkSans';
+  src: local('WorkSans Bold'), local('WorkSans-Bold'),
+    url('#{$font_url}WorkSans/WorkSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: local('WorkSans Medium'), local('WorkSans-Medium'),
-        url('#{$font_url}WorkSans/WorkSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'WorkSans';
+  src: local('WorkSans Medium'), local('WorkSans-Medium'),
+    url('#{$font_url}WorkSans/WorkSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: local('WorkSans SemiBold'), local('WorkSans-SemiBold'),
-        url('#{$font_url}WorkSans/WorkSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'WorkSans';
+  src: local('WorkSans SemiBold'), local('WorkSans-SemiBold'),
+    url('#{$font_url}WorkSans/WorkSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: local('WorkSans Regular'), local('WorkSans-Regular'),
-        url('#{$font_url}WorkSans/WorkSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'WorkSans';
+  src: local('WorkSans Regular'), local('WorkSans-Regular'),
+    url('#{$font_url}WorkSans/WorkSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 // Plus Jakarta Sans
 
 @font-face {
-    font-family: 'PlusJakartaSans';
-    src: local('PlusJakartaSans Bold'), local('PlusJakartaSans-Bold'),
-      url('#{$font_url}PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'PlusJakartaSans';
+  src: local('PlusJakartaSans Bold'), local('PlusJakartaSans-Bold'),
+    url('#{$font_url}PlusJakartaSans/PlusJakartaSans-Bold.ttf')
+      format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'PlusJakartaSans';
-    src: local('PlusJakartaSans Medium'), local('PlusJakartaSans-Medium'),
-        url('#{$font_url}PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'PlusJakartaSans';
+  src: local('PlusJakartaSans Medium'), local('PlusJakartaSans-Medium'),
+    url('#{$font_url}PlusJakartaSans/PlusJakartaSans-Medium.ttf')
+      format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'PlusJakartaSans';
-    src: local('PlusJakartaSans SemiBold'), local('PlusJakartaSans-SemiBold'),
-        url('#{$font_url}PlusJakartaSans/PlusJakartaSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'PlusJakartaSans';
+  src: local('PlusJakartaSans SemiBold'), local('PlusJakartaSans-SemiBold'),
+    url('#{$font_url}PlusJakartaSans/PlusJakartaSans-SemiBold.ttf')
+      format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'PlusJakartaSans';
-    src: local('PlusJakartaSans Regular'), local('PlusJakartaSans-Regular'),
-        url('#{$font_url}PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'PlusJakartaSans';
+  src: local('PlusJakartaSans Regular'), local('PlusJakartaSans-Regular'),
+    url('#{$font_url}PlusJakartaSans/PlusJakartaSans-Regular.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Source Code Pro
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: local('SourceCodePro Bold'), local('SourceCodePro-Bold'),
+    url('#{$font_url}SourceCodePro/SourceCodePro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: local('SourceCodePro Medium'), local('SourceCodePro-Medium'),
+    url('#{$font_url}SourceCodePro/SourceCodePro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: local('SourceCodePro SemiBold'), local('SourceCodePro-SemiBold'),
+    url('#{$font_url}SourceCodePro/SourceCodePro-SemiBold.ttf')
+      format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: local('SourceCodePro Regular'), local('SourceCodePro-Regular'),
+    url('#{$font_url}SourceCodePro/SourceCodePro-Regular.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

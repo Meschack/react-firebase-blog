@@ -15,12 +15,11 @@ export const Router = () => {
       <Route path='/about' element={<About />} />
       <Route path='/contact' element={<Contact />} />
 
-      <Route path='/blog' element={<BlogListing />}>
-        <Route path=':slug' element={<SinglePost />} />
-      </Route>
+      <Route path='/blog' element={<BlogListing />} />
+      <Route path='/blog/:slug' element={<SinglePost />} />
 
-      <Route path='/category'>
-        <Route path=':category' element={<SingleCategory />} />
+      <Route path='/category/:category'>
+        <Route path='' element={<SingleCategory />} />
       </Route>
     </Routes>
   )

@@ -4,7 +4,9 @@ export const NewsletterForm = () => {
   return (
     <div className='newsletter-form bg-white p-2 rounded-2 d-flex gap-2 flex-direction-column text-center'>
       <h3>Weekly Newsletter</h3>
-      <p>Get blog articles and offers via email</p>
+      <p className='text-secondary-800 fs-2'>
+        Get blog articles and offers via email
+      </p>
 
       <form action='' className='d-flex gap-1 flex-direction-column'>
         <input

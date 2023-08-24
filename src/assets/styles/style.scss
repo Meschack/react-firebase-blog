@@ -7,26 +7,4 @@
 // Included core styles
 @import './core/style';
 
-body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-}
-
-#root > *:not(footer),
-footer .content {
-  max-width: 1216px;
-  margin: 0 auto;
-}
-
-a {
-  color: $secondary-600;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  font-family: $base-font-family;
-
-  &:hover {
-    border-bottom: 2px solid $secondary-600;
-  }
-}
+@import 'detached';

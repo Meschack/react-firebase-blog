@@ -6,6 +6,7 @@ import { BlogListing } from '../pages/BlogListing'
 import { SinglePost } from '../pages/SinglePost'
 import { SingleCategory } from '../pages/SingleCategory'
 import { Contact } from '../pages/Contact'
+import { Author } from '../pages/Author'
 
 export const Router = () => {
   return (
@@ -20,6 +21,10 @@ export const Router = () => {
 
       <Route path='/category/:category'>
         <Route path='' element={<SingleCategory />} />
+      </Route>
+
+      <Route path='/author/:author'>
+        <Route path='' element={<Author />} />
       </Route>
     </Routes>
   )

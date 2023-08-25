@@ -1,12 +1,17 @@
-.m-post-card-grid {
+.post-card-grid {
   transition-duration: 0.5s;
-
-  /* .rectangle-38 {
-    border-radius: 6px;
-    height: 240px;
-  } */
+  position: relative;
 
   &:hover {
     transform: scale(1.02);
+  }
+
+  .invisible-link {
+    position: absolute;
+    inset: 0;
+  }
+
+  .sub-link {
+    z-index: 2;
   }
 }

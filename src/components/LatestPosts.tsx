@@ -3,6 +3,7 @@ import { PostCard } from './PostCard'
 
 const posts: Post[] = [
   {
+    id: 1,
     author: {
       name: 'Tracey Wilson',
       avatar: '/assets/avatars/tracey-wilson.webp',
@@ -14,6 +15,7 @@ const posts: Post[] = [
       'The Impact of Téchnology on the Workplace: How Technology is Changing',
   },
   {
+    id: 2,
     author: {
       name: 'Jason Francisco',
       avatar: '/assets/avatars/jason-francisco.webp',
@@ -25,6 +27,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 3,
     author: {
       name: 'Elizabeth Slavin',
       avatar: '/assets/avatars/elizabeth-slavin.webp',
@@ -36,6 +39,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 4,
     author: {
       name: 'Ernie Smith',
       avatar: '/assets/avatars/ernie-smith.webp',
@@ -47,6 +51,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 5,
     author: {
       name: 'Eric Smith',
       avatar: '/assets/avatars/eric-smith.webp',
@@ -58,6 +63,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 6,
     author: {
       name: 'Tracey Wilson',
       avatar: '/assets/avatars/tracey-wilson.webp',
@@ -69,6 +75,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 7,
     author: {
       name: 'Jason Francisco',
       avatar: '/assets/avatars/jason-francisco.webp',
@@ -80,6 +87,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 8,
     author: {
       name: 'Elizabeth Slavin',
       avatar: '/assets/avatars/elizabeth-slavin.webp',
@@ -91,6 +99,7 @@ const posts: Post[] = [
       'The Impact of Technology on the Workplace: How Technology is Changing',
   },
   {
+    id: 9,
     author: {
       name: 'Ernie Smith',
       avatar: '/assets/avatars/ernie-smith.webp',
@@ -108,7 +117,7 @@ export const LatestPosts = () => {
   return (
     <div className='latest-post d-grid gap-2'>
       {posts.map((post) => (
-        <PostCard key={post.title} post={post} />
+        <PostCard key={post.id} post={post} />
       ))}
     </div>
   )

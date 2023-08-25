@@ -6,24 +6,31 @@ export const Footer = () => {
   return (
     <footer className='bg-secondary-100 pt-5 pb-1'>
       <div className='content d-flex align-items-center flex-direction-column gap-5'>
-        <div className='d-grid informations gap-4'>
-          <div className='d-grid gap-2'>
+        <div className='d-flex align-items-start gap-5 justify-content-space-between informations'>
+          <div className='container'>
             <div className='about'>
               <h3>About</h3>
-              <p className='fs-2'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                voluptatem eaque alias ducimus reiciendis cumque magnam numquam
-                labore iusto. Dolores placeat est omnis, quia ab officia
-                quisquam totam sint inventore?
+              <p className='text-justify text-secondary-600'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                rem exercitationem ipsam et mollitia ipsa recusandae dolorem
+                nostrum. Aliquam, nisi. Voluptate placeat ex facere ipsam fuga
+                corporis, dolore suscipit quia. Tempore aperiam odit modi, minus
+                eligendi quis provident quaerat illum repudiandae corporis optio
+                dolorem tenetur omnis est voluptatibus voluptatem culpa mollitia
+                blanditiis! Aliquid suscipit impedit hic. Quis, nemo sapiente
+                quo aut ullam soluta beatae ea dolorum cupiditate, adipisci
+                odio?
               </p>
             </div>
-            <div className='contacts-infos'>
+            <div className='contacts-infos mt-2'>
               <ul>
                 <li>
-                  <strong>Email : </strong>contact@domain.com
+                  <strong>Email : </strong>
+                  <span className=''>contact@domain.com</span>
                 </li>
                 <li>
-                  <strong>Phone : </strong>00 229 54 14 22 05
+                  <strong>Phone : </strong>
+                  <span className=''>00 229 54 14 22 05</span>
                 </li>
               </ul>
             </div>
@@ -73,7 +80,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full d-flex justify-content-space-between'>
+        <div className='w-full d-flex justify-content-space-between pt-1 border-top-1 border-secondary-400'>
           <div className='copywright'>
             <Logo />
           </div>

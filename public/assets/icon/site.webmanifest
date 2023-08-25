@@ -1,6 +1,7 @@
 {
   "name": "MetaBlog",
   "short_name": "MT",
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "/assets/icon/android-chrome-192x192.png",

@@ -1,8 +1,15 @@
 .featured-post {
   width: 598px;
+  max-width: calc(100% /*  - 1rem */);
+  min-width: 350px;
   padding: 40px;
-  position: absolute;
-  left: 64px;
-  bottom: -64px;
   box-shadow: $shadow-md;
+
+  @media (min-width: 600px) {
+    & {
+      transform: translate(1rem, -50%);
+      max-width: calc(100% - 1rem);
+      background-color: $black;
+    }
+  }
 }

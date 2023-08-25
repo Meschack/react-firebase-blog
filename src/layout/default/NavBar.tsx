@@ -8,7 +8,7 @@ export const NavBar = () => {
       <Logo />
 
       <nav className='nav'>
-        <ul className='d-flex align-items-center gap-1'>
+        <ul className='d-flex align-items-center gap-3'>
           <li>
             <Link to='/home'>Home</Link>
           </li>

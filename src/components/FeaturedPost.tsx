@@ -5,7 +5,7 @@ export const FeaturedPost = () => {
   return (
     <div className='featured-post d-flex bg-white rounded-1 flex-direction-column gap-2'>
       <Badge className='bg-primary text-white'>Technology</Badge>
-      <h2>
+      <h2 className='fs-3'>
         The Impact of Technology on the Workplace: How Technology is Changing
       </h2>
 

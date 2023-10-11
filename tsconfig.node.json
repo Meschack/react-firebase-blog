@@ -5,7 +5,8 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "Node16",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["vite.config.ts"]
 }
